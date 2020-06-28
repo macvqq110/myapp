@@ -1,0 +1,26 @@
+[
+    {
+        "name":"小猪佩奇玩具",
+        "price":"50",
+        "number":1,
+        "id":1,
+        "checked":false,
+        "imgSrc":"https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1840984476,3545337261&fm=26&gp=0.jpg"
+    },
+    {
+        "name":"汪汪队玩具",
+        "price":"120",
+        "number":1,
+        "id":2,
+        "checked":false,
+        "imgSrc":"https://dss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4142052013,564122852&fm=26&gp=0.jpg"
+    },
+    {
+        "name":"奥特曼玩具",
+        "price":"90",
+        "number":1,
+        "id":3,
+        "checked":false,
+        "imgSrc":"https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2026972934,2966106125&fm=26&gp=0.jpg"
+    }
+]

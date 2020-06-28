@@ -1,0 +1,37 @@
+.router-enter{
+    transform: translateX(100%)
+  }
+  .router-enter-to{
+    transform: translateX(0)
+  }
+  .router-enter-active{
+    transition: all 1s;
+  }
+  .router-leave{
+    transform: translateX(0)
+  }
+  .router-leave-to{
+    transform: translateX(-100%)
+  }
+  .router-leave-active{
+    transition: all 1s;
+  }
+
+  .router1-enter{
+    transform: translateX(-100%)
+  }
+  .router1-enter-to{
+    transform: translateX(0)
+  }
+  .router1-enter-active{
+    transition: all 1s;
+  }
+  .router1-leave{
+    transform: translateX(0)
+  }
+  .router1-leave-to{
+    transform: translateX(100%)
+  }
+  .router1-leave-active{
+    transition: all 1s;
+  }

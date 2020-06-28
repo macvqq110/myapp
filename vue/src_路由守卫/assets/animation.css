@@ -1,0 +1,27 @@
+
+/* 入场动画的初始状态 */
+.left-enter{
+    transform: translateX(100%) rotate(0deg);
+  }
+  /* 入场动画的结束状态 */
+  .left-enter-to{
+    transform: translateX(0) rotate(-360deg);
+  }
+  /* 入场动画的激活状态 */
+  .left-enter-active{
+    transition: all 1s;
+  }
+  
+  /* 离场动画 */
+  /* 初始状态 */
+  .left-leave{
+    transform: translateX(0) scale(1) rotate(0deg);
+  }
+  /* 结束状态 */
+  .left-leave-to{
+    transform: translateX(-100%) scale(0.1) rotate(-360deg);
+  }
+  /* 激活状态 */
+  .left-leave-active{
+    transition: all 1s;
+  }

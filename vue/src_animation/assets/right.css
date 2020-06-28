@@ -1,0 +1,21 @@
+/* 入场初始状态 */
+.right-enter{
+    transform: translateX(-100%) scale(.4);
+}
+.right-enter-to{
+    transform: translateX(0)  scale(1);
+}
+.right-enter-active{
+    transition: all 1s;
+}
+
+/* 出场动画 */
+.right-leave{
+    transform: translateX(0) scale(1);
+}
+.right-leave-to{
+    transform: translateX(100%)  scale(.4);
+}
+.right-leave-active{
+    transition: all 1s;
+}
